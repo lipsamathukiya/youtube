@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My YouTube</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.css"
+    integrity="sha512-tAFZ5lVCh6vdkI7GDFD4zhO6AIqZCi2ZSHoU2FutcANm6tqirtsl7zoA45Yvvxb2HKYfiRLhksYuyxzNo7tHIw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+<body>
+    <nav class="navbar bg-white border-bottom">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center gap-3">
+                <a class="navbar-brand fw-bold fs-4 text-dark">
+                    <i class="fa-brands fa-youtube" style="color: rgb(255, 12, 12);"></i> YouTube
+                </a>
+            </div>
+            <!-- Search -->
+            <form class="d-flex mx-auto" style="width: 45%;">
+                <input class="form-control rounded-start-pill" type="search" placeholder="Search">
+                <button class="btn btn-light border rounded-end-pill px-4" type="submit">
+                    <i class="fa-solid fa-magnifying-glass" style="color: rgb(11, 11, 10);"></i> </button>
+            </form>
+            <div class="d-flex align-items-center gap-3">
+
+                <button class="btn btn-light rounded-circle">
+                    <i class="fa-solid fa-microphone" style="color: rgb(11, 11, 10);"></i>
+                </button>
+
+                <button class="btn btn-light">
+                    <i class="fa-solid fa-plus" style="color: rgb(11, 11, 10);"></i> Create
+                </button>
+
+                <button class="btn btn-light fs-5">
+                    <i class="fa-solid fa-bell" style="color: rgb(11, 11, 10);"></i> </button>
+
+                <button class="btn btn-danger rounded-circle">
+                    <i class="fa-solid fa-user" style="color: rgb(11, 11, 10);"></i> </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Video Card -->
+    <div class="container-fluid py-3">
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm">
+                    <video src="./video/triangle.webm" poster="./img/triangle.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Triangle Angle Finder Program
+                        </h5>
+                        <p class="text-secondary">
+                            This program is used to calculate the area of a triangle. It takes the base and height as
+                            input and displays the area of the triangle. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm">
+                    <video src="./video/tempreture.webm" poster="./img/temperrature.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Temperature Converter Program
+                        </h5>
+                        <p class="text-secondary">
+                            This program is used to convert temperature from Celsius to Fahrenheit. It takes temperature
+                            in Celsius as input and displays the temperature in Fahrenheit. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm ">
+                    <video src="./video/salary.webm" poster="./img/salary.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Gross Salary Calculator Program
+                        </h5>
+                        <p class="text-secondary">
+                            This program is used to calculate the gross salary of an employee. It takes basic salary and
+                            allowances as input and displays the gross salary. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm">
+                    <video src="./video/ternary operator.webm" poster="./img/ternary.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Ternary Operator Program
+                        </h5>
+                        <p class="text-secondary">
+                            This program is used to perform a task using the ternary operator. It takes input from the
+                            user and displays the required result. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm ">
+                    <video src="./video/switch.webm" poster="./img/switch.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Switch Case statement Program
+                        </h5>
+                        <p class="text-secondary">
+                            This program is used to perform different tasks using a switch case statement. It takes a
+                            choice from the user and displays the corresponding result. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm">
+                    <video src="./video/ladder if else.webm" poster="./img/ladder.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Ladder if else statement Program
+                        </h5>
+
+                        <p class="text-secondary">
+                            This program is used to perform different conditions using the ladder if-else statement. It
+                            checks the conditions and displays the appropriate result. </p>
+                    </div>
+                </div>
+            </div>
+            <!--card 7-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm ">
+                    <video src="./video/Atoz.webm" poster="./img/atoz.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Alphabet skipped
+                        </h5>
+                        <p class="text-secondary mb-0">
+                            This program is used to print the alphabet from A to Z by skipping every 3 letters. It
+                            displays the alphabet sequence according to the given pattern. </p>
+                    </div>
+                </div>
+            </div>
+            <!--card 8-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm">
+                    <video src="./video/digits.webm" poster="./img/count number.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Count the number of digits
+                        </h5>
+                        <p class="text-secondary mb-0">
+                            This program is used to count the number of digits in a given number. It takes a number as
+                            input and displays the total number of digits. </p>
+                    </div>
+                </div>
+            </div>
+            <!--card 9-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm">
+                    <video src="./video/sum first & last.webm" poster="./img/sum.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Sum of the first & last digits
+                        </h5>
+                        <p class="text-secondary mb-0">
+                            This program is used to find the sum of the first and last digits of a given number. It
+                            takes a number as input and displays their sum. </p>
+                    </div>
+                </div>
+            </div>
+            <!--card 10-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm">
+                    <video src="./video/pattern1.webm" poster="./img/pattern1.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Pattern
+                        </h5>
+                        <p class="text-secondary mb-0">
+                            This program is used to print a right half triangle pattern using nested for loops. It
+                            displays the numbers or symbols in a triangular pattern. </p>
+                    </div>
+                </div>
+            </div>
+            <!--card 11-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-1 shadow-sm">
+                    <video src="./video/pattern2.webm" poster="./img/pattern 2.png" controls
+                        style="height:200px; object-fit:cover; border-radius:10px 10px 0 0;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">
+                            Pattern
+                        </h5>
+                        <p class="text-secondary mb-0">
+                            This program is used to print Floyd’s triangle pattern using nested for loops. It displays
+                            numbers in a triangular pattern.
+                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
